@@ -22,7 +22,7 @@ var presetOpts = {
     };
   },
   parserOpts: {
-    headerPattern: /^([\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])*\s\[([A-Z]{3})\]\s(?:\((.*)\))?\s?(.*)$/,
+    headerPattern: /^([\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])+.+?\[([A-Z]{3,4})\]\s(?:\((.*)\))?\s?(.*)$/,
     headerCorrespondence: [
       'emoji',
       'type',
@@ -30,7 +30,7 @@ var presetOpts = {
       'shortDesc'
     ],
     noteKeywords: 'BREAKING CHANGE',
-    revertPattern: /^(?:[\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])*\s\[[A-Z]{3}\]\srevert:\s([\s\S]*?)\s*This reverts commit\s(\w*)/,
+    revertPattern: /^(?:[\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])+.+?\[[A-Z]{3,4}\]\srevert:\s([\s\S]*?)\s*This reverts commit\s(\w*)/,
     revertCorrespondence: [
       'header',
       'hash'
