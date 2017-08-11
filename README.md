@@ -1,24 +1,24 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverall-image]][coverall-url]
+# bk-conventional-recommended-bump #
 
 > Get a recommended version bump based on conventional commits
 
-Got the idea from https://github.com/conventional-changelog/conventional-changelog/pull/29
+> Available presets: "sportheroesgroup", "angular"
 
 
 ## Install
 
 ```sh
-$ npm install --save conventional-recommended-bump
+$ npm install --save @sportheroes/bk-conventional-recommended-bump
 ```
 
 
 ## Usage
 
 ```js
-var conventionalRecommendedBump = require('conventional-recommended-bump');
+var conventionalRecommendedBump = require('bk-conventional-recommended-bump');
 
 conventionalRecommendedBump({
-  preset: 'angular'
+  preset: 'sportheroesgroup'
 }, function(err, result) {
   console.log(result.releaseType);
   //=> 'major'
@@ -100,22 +100,8 @@ The value of what it should release as.
 
 ## Related
 
+- [conventional-recommended-bump](https://github.com/conventional-changelog/conventional-recommended-bump) - Original repository
 - [conventional-github-releaser](https://github.com/conventional-changelog/conventional-github-releaser) - Make a new GitHub release from git metadata
 - [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog-cli) - Generate a changelog from git metadata
 - [conventional-commits-detector](https://github.com/conventional-changelog/conventional-commits-detector) - Detect what commit message convention your repository is using
 - [semantic-release](https://github.com/semantic-release/semantic-release) - fully automated package publishing
-
-
-## License
-
-MIT © [Steve Mao](https://github.com/stevemao)
-
-
-[npm-image]: https://badge.fury.io/js/conventional-recommended-bump.svg
-[npm-url]: https://npmjs.org/package/conventional-recommended-bump
-[travis-image]: https://travis-ci.org/conventional-changelog/conventional-recommended-bump.svg?branch=master
-[travis-url]: https://travis-ci.org/conventional-changelog/conventional-recommended-bump
-[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-recommended-bump.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-recommended-bump
-[coverall-image]: https://coveralls.io/repos/conventional-changelog/conventional-recommended-bump/badge.svg
-[coverall-url]: https://coveralls.io/r/conventional-changelog/conventional-recommended-bump
