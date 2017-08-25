@@ -1,7 +1,16 @@
-# Changelog
+# Change Log
 
-All notable changes to this project will be documented in this file.
-See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/sportheroes/bk-conventional-recommended-bump/compare/1.1.1...1.1.2) (2017-08-25)
+
+
+### 🔄 Notable changes
+
+* **Preset**: SHG scope capture is now using a lazy match ([12f0815](https://github.com/sportheroes/bk-conventional-recommended-bump/commit/12f0815))
+
+
 
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/sportheroes/bk-ms-emails/releases/tag/1.1.1) (2017-08-11)
