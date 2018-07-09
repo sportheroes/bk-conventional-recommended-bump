@@ -1,6 +1,6 @@
 {
   "name": "@sportheroes/bk-conventional-recommended-bump",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Get a recommended version bump based on Sport Heroes Group conventional commits",
   "homepage": "https://github.com/sportheroes/bk-conventional-recommended-bump",
   "author": {

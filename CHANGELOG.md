@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/sportheroes/bk-conventional-recommended-bump/compare/v1.1.2...v1.2.0) (2018-07-09)
+
+
+### ✅ Features
+
+* **Dependencies**: Bumped core dependencies to their latest versions ([c8d4de7](https://github.com/sportheroes/bk-conventional-recommended-bump/commit/c8d4de7) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/sportheroes/bk-conventional-recommended-bump/compare/1.1.1...1.1.2) (2017-08-25)
 
